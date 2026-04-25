@@ -1,0 +1,100 @@
+.navbar{
+    background-color: rgb(0, 225, 255);
+    align-content: center;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.navbar a{
+    text-decoration: none;
+     float: right;
+     margin: 10px;
+     background-color: #ffffff;
+     border-bottom: 4px;
+     border-color: black;
+     border-radius: 2px;
+     color: black;
+     padding: 10px;
+     box-shadow: 6px 6px 14px solid black;
+     position: relative;
+}
+.navbar a:hover{
+    box-shadow: 4px 4px 14px rgb(239, 5, 122);
+    background-color: rgb(9, 236, 229);
+    color: #ffffff;
+}
+.logcard{
+    margin-top: 35px;
+    height: 350px;
+    padding: 30px;
+    background-color: rgba(10, 245, 245, 0.516);
+    width: 300px;
+    border-radius: 25px;
+    margin: 30px;
+}
+.aside{
+    float: right;
+    flex-wrap: wrap;
+    background-color: rgba(8, 186, 230, 0.434);
+    border-radius: 25px;
+    padding: 8px;
+    align-content: center;
+    width: 240px;
+    box-shadow: 10px 10px 40px #0000ff65;
+
+}
+.products{
+    margin-left: 40px;
+    height: fit-content;
+    width: fit-content;
+    border-bottom: 4px;
+    overflow: hidden;
+}
+.productcard{
+    background-color: aqua;
+    width: auto;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 255, 0.484);
+    float: left;
+    flex-wrap: wrap;
+}
+footer{
+    margin-top: 30px;
+    background-color: grey;
+    text-align: center;
+}
+.contentbox{
+    background-color: aqua;
+    border-radius: 25px;
+    box-shadow: 4px 4px 25px black;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.contactbox{
+    background-color: aqua;
+    border-radius: 25px;
+    box-shadow: 4px 4px 25px black;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.contactbox li{
+    padding: 10px;
+
+}
+.contactbox li a{
+     text-decoration: none;
+    color: black;
+}
+.contactbox li a:hover{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: wavy;
+    background-color: rgb(8, 240, 252);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 2px 2px 20px red;
+    box-sizing: content-box;
+    padding: 10px;
+}
